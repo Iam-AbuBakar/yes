@@ -1,0 +1,245 @@
+Module-1
+
+ Q: What is software security, and why is it increasingly critical in today's world?
+A: Software security is the practice of protecting software from unauthorized access, modification, and destruction. It involves implementing measures to prevent malicious attacks and ensure the confidentiality, integrity, and availability of software. It's increasingly critical due to our growing reliance on technology in all aspects of life, where a single vulnerability can lead to significant financial losses, reputational damage, and legal liabilities.   
+•  Q: How has the nature of software systems evolved, and what implications does this have for software security?
+A: Software systems have evolved from isolated pieces to complex, interconnected environments. This evolution means that new components must merge with existing legacy systems, creating vulnerabilities in "systems of systems." It requires a shift from traditional development assumptions to address challenges like decentralized control and heterogeneous components.   
+•  Q: Explain the difference between an "error," "defect," "bug," and "fault" in software.
+A:
+•	Error: A mistake in code, often due to a developer's misunderstanding of requirements.   
+•	Defect: An implementation and design weakness; when the application is not working as per the requirement.   
+•	Bug: An informal name for a defect, specifically an implementation-level error that can be detected and removed (e.g., buffer overflow).   
+•	Fault: A condition that may cause a system to fail to perform its function.   
+•  Q: What is software assurance, and what are its key objectives?
+A: Software assurance focuses on building and maintaining trustworthy, reliable, and secure software systems. It aims to ensure that software is free from vulnerabilities and operates reliably and securely as intended throughout its lifecycle. Its objectives include ensuring intended functionality, building robust software, and minimizing exploitable weaknesses.   
+•  Q: Why is software assurance important for businesses and missions?
+A: Software assurance is important because exploitable software increases business and mission risks. Software weaknesses are the weakest link in system success, and complexity and supply-chain risks amplify defenselessness.   
+•  Q: What are the core properties of secure software, and why is each important?
+A:
+•	Predictable Execution: Ensures software functions as intended, even against malicious input.   
+•	Trustworthiness: Aims to minimize exploitable exposures and vulnerabilities.   
+•	Conformance: Ensures software adheres to requirements, standards, and procedures.   
+•	Attack Resilience: Enables software to recover from failures and maintain acceptable service levels.   
+•  Q: Describe the challenges in addressing software threats, particularly "asymmetric risk."
+A: Challenges include the reliance on operational controls (where application-level vulnerabilities are unaddressed) and asymmetric risk. Asymmetric risk means defenders must anticipate all vulnerabilities, while attackers need to find only one exploit. The evolving threat landscape, with public exploit scripts and sophisticated attackers, exacerbates these challenges.   
+•  Q: What are insider threats, and why are they a concern in software security?
+A: Insider threats refer to individuals with authorized access who harm an organization's data and resources. They are a concern because they can lead to corruption, espionage, sabotage, and unauthorized information disclosure, and can be a starting point for other cyberattacks.   
+•  Q: Explain the concept of "Denial-of-Service" (DoS) attacks.
+A: Denial-of-Service (DoS) attacks are intentional efforts to make a computer or network unavailable to legitimate users, usually by overwhelming the target with a flood of requests.   
+•  Q: How do coding errors and weak security controls contribute to software insecurity?
+A: Coding errors introduce vulnerabilities that attackers can exploit, while weak security controls (e.g., weak passwords, inadequate authentication) compromise software security.   
+•  Q: What are the benefits of detecting software security issues early in the Software Development Life Cycle (SDLC)?
+A: Early detection reduces the risk of cyberattacks, improves customer trust, enhances compliance, and provides significant cost benefits. Defect correction during requirements/design phases is much cheaper than post-production.   
+•  Q: Describe the consequences of skipping early defect detection in software development.
+A: Skipping early defect detection can lead to increased development time, project cancellations, persistent and escalating defects, and rework, significantly increasing development costs.   
+•  Q: What is the Risk Management Framework (RMF), and what are its key benefits?
+A: The Risk Management Framework (RMF) is a continuous process crucial for addressing software security risks throughout the SDLC. Its benefits include ensuring iterative risk management, supporting governance, and enhancing decision-making for software security.   
+•  Q: Outline the activities involved in the Risk Management Framework.
+A: The RMF activities include:
+•	Identifying risks across SDLC phases.   
+•	Analyzing risks by evaluating likelihood and impact.   
+•	Mitigating risks by developing strategies to reduce likelihood and impact.   
+•	Monitoring risk status and mitigation effectiveness.   
+•	Reporting progress on risk management activities.   
+•  Q: What are the "Seven Touchpoints" of software security, and why are they important?
+A: The Seven Touchpoints are a set of security best practices integrated into the SDLC. They provide a structured approach to identifying and addressing security risks at different stages of development.   
+•  Q: Give examples of risks found at different touchpoints:
+A:
+•	Code Reviews: Buffer overflow on line 30.   
+•	Architectural Risk Analysis: Failure of a Web Service to authenticate calling code.   
+•	Penetration Testing: Poor handling of program state in the Web interface.   
+•	Risk-Based Security Testing: Extent of potential data leakage.   
+•	Abuse Cases: Susceptibility to tampering attacks.   
+•	Security Requirements: Missing explicit description of data protection needs.   
+•	Security Operations: Insufficient logging to prosecute an attacker.   
+•  Q: Beyond Confidentiality, Integrity, and Availability, what other security properties are important for software entities that act as users?
+A: Accountability and Non-repudiation are important.   
+•	Accountability: All security-relevant actions must be recorded and tracked with responsibility attribution.   
+•	Non-repudiation: Prevents software from denying responsibility for its actions.   
+•  Q: How do dependability, correctness, and predictability influence software security?
+A:
+•	Dependability: Ensures software operates as intended, contributing to overall reliability and availability.   
+•	Correctness: Ensures the system behaves according to specifications, producing expected results.   
+•	Predictability: Enables anticipation of system behavior, making it easier to understand and manage.   
+•  Q: What are some key strategies for effective security implementation?
+A: Key strategies include using security knowledge resources (prescriptive, diagnostic, historical), integrating security best practices throughout the SDLC, and applying risk-driven security measures.   
+•  Q: What are security requirements, and why are they important?
+A: Security requirements are specifications that define how a system should handle security. They are important for establishing clear security expectations, serving as criteria for evaluation, and ensuring compliance and validation. 
+
+
+
+
+
+
+
+
+
+
+Module-2
+Enhanced Viva Questions and Answers - Module 2 (Revised)
+I. Definitions
+•	Requirements Engineering: The process of defining, documenting, and maintaining requirements in the software development process.
+•	Misuse Case: A use case from an attacker's perspective, describing the process of executing a malicious act against a system.
+•	Abuse Case: Similar to a misuse case, focusing on how a system can be intentionally harmed.
+•	SQUARE: Security Quality Requirements Engineering; a process model for eliciting, categorizing, and prioritizing security requirements.
+II. Key Points
+•	Security requirements are often treated as generic lists, neglecting system-specific needs.   
+•	Requirements engineering defects can be very costly to correct, especially later in the SDLC.   
+•	Software development takes place in a dynamic environment, causing requirements to change.   
+•	Attackers focus on defects and conditions outside the norm.   
+•	Security should be built into the product from the ground up, not added as an afterthought.   
+•	The SQUARE process model provides a structured approach to security requirements engineering.   
+III. Viva Questions
+1.	Q: Why is a systematic approach to security requirements engineering considered crucial?
+A: A systematic approach is crucial to avoid treating security requirements as generic lists and neglecting system-specific needs and the attacker's perspective. This approach helps prevent costly rework, poor-quality applications, and products that are not used due to security flaws.   
+2.	Q: Explain the cost implications of requirements engineering defects.
+A: Requirements engineering defects can be extremely costly. Correcting them once the system is operational can cost 10 to 200 times more than fixing them early. Additionally, reworking requirements, design, and code defects can consume 40 to 50 percent of the total project effort, and these defects can account for 25 to 40 percent of the project budget.   
+3.	Q: What are the key challenges in requirements engineering?
+A: Key challenges include the dynamic environment in which software development takes place (causing requirements to constantly change), conflicts between stakeholder groups, rapidly evolving markets, and the common issue of analysis being restricted to functional end-user requirements while ignoring quality requirements like security.   
+4.	Q: Why are quality requirements, such as security, often neglected?
+A: Quality requirements like performance, safety, security, reliability, and maintainability are often neglected due to the desire to keep costs down and meet aggressive schedules.   
+5.	Q: What are the consequences of not effectively defining security requirements?
+A: If security requirements are not effectively defined, the resulting system cannot be evaluated for success or failure. Security requirements are also often developed independently of other requirements engineering activities and copied from generic lists, which can lead to inadequate security.   
+6.	Q: How does an attacker's perspective differ from a user's perspective in software security?
+A: Users have implicit assumptions about software applications, while attackers are not particularly interested in functional features unless they provide an avenue for attack. Attackers typically look for defects and conditions outside the norm.   
+7.	Q: What are misuse and abuse cases, and how are they used in security requirements elicitation?
+A: Misuse and abuse cases describe the process of executing a malicious act against a system. They highlight what should not happen and help in defining new security requirements. They are used to think beyond normative features and contemplate negative or unexpected events to create more secure and reliable software.   
+8.	Q: Explain why security is considered an emergent property of a system.
+A: "Security as an emergent property" means that security is not simply a feature to be added to software; it must be designed and built into the system from the start. It emerges from the interaction of various components and design decisions throughout the development lifecycle.   
+9.	Q: What does it mean to "think about what you can't do" in software security?
+A: "Thinking about what you can't do" means considering attackers' intentions, anticipating unexpected behavior, and understanding that attackers will try to undermine the assumptions on which a system was built.   
+10.	Q: What is the purpose of documenting reactions in misuse cases?
+A: One of the goals of misuse cases is to decide and document a priori how software should react to illegitimate use.   
+11.	Q: Describe the SQUARE process model.
+A: The SQUARE (Security Quality Requirements Engineering) process model is a structured approach for eliciting, categorizing, and prioritizing security requirements for IT systems. It focuses on integrating security concepts early in the SDLC and can be used for documenting, analyzing, and improving system security.   
+12.	Q: What are the first four steps of the SQUARE process, and why are they important?
+A: The first four steps are:
+1.	Agree on Definitions: Establish a common understanding of security terms.   
+2.	Identify Security Goals: Define security goals at the organizational level.   
+3.	Develop Artifacts: Create documents like use cases and misuse cases.   
+4.	Perform Risk Assessment: Engage a risk assessment expert to identify high-priority security exposures. These steps are crucial for laying the foundation for effective security requirements engineering.   
+13.	Q: Why is risk assessment an important step in the SQUARE process?
+A: Risk assessment is important because it helps organizations select solutions with a clear understanding of the problem. It involves expert input and stakeholder support to logically consider organizational risks when defining security requirements.   
+14.	Q: What are some examples of elicitation techniques used in the SQUARE process?
+A: Examples include Misuse Cases, Soft Systems Methodology (SSM), Quality Function Deployment (QFD), Controlled Requirements Expression (CORE), Issue-Based Information Systems (IBIS), and Joint Application Development (JAD).   
+15.	Q: Describe the purpose of requirements categorization and prioritization in the SQUARE process.
+A: Requirements categorization distinguishes between essential requirements, goals, and architectural constraints, which aids in the subsequent prioritization activity. Prioritization involves performing a cost-benefit analysis to determine which security requirements have a high payoff relative to their cost and considering the potential consequences of security breaches.   
+16.	Q: What is the significance of requirements inspection in the SQUARE process?
+A: Requirements inspection involves conducting reviews to ensure the project team has an initial set of prioritized security requirements and to identify defects. It helps the team understand incomplete areas and dependencies, planning to revisit them as needed.   
+17.	Q: What are the expected results and sample outputs from applying the SQUARE process?
+A: The expected results include identified and documented relevant security requirements. The sample output is a security requirements document that can be used in the early stages of the SDLC to ensure security requirements are built into project plans.   
+18.	Q: How can the SQUARE process be used post-deployment?
+A: Post-deployment, the requirements documentation from the SQUARE process can be used to analyze whether the system met its requirements and satisfied its security goals. The process can also be revisited to address changes in system configuration, risk profile, or business goals.   
+19.	Q: What criteria are used to evaluate elicitation methods?
+A: Criteria include adaptability, stakeholder acceptance, easy implementation, graphical output, quick implementation, shallow learning curve, high maturity, and scalability.   
+20.	Q: Describe some of the requirements prioritization methods mentioned in the document.
+A: Some of the methods include Binary Search Tree (BST), Numeral Assignment Technique, Planning Game, 100-Point Method, Theory-W, Requirements Triage, Wiegers’ Method, Requirements Prioritization Framework, and AHP.   
+IV. Fill-in-the-Blanks
+1.	____________ are most commonly used in the field of security requirements elicitation.   
+Answer: Abuse cases
+2.	Security is an ____________ property of a system, not a feature.   
+Answer: emergent
+3.	Attackers are bad people with ____________ intentions.   
+Answer: malicious
+4.	The ____________ process model provides a structured approach for eliciting security requirements.   
+Answer: SQUARE
+5.	Reworking requirements, design, and code defects accounts for ____ to ____ percent of total project effort.   
+Answer: 40 to 50
+6.	____________ requirements are often copied from a generic list of security features.   
+Answer: Security
+7.	An attacker is not particularly interested in ____________ features of the system, unless they provide an avenue for attack.   
+Answer: functional
+8.	To create secure and reliable software, we must anticipate ____________ behavior.   
+Answer: abnormal
+9.	____________ helps in threat identification by analyzing an adversary’s best moves.   
+Answer: Misuse Cases
+10.	____________ translates customer requirements into technical requirements for product development.   
+Answer: Quality Function Deployment
+
+
+
+
+
+
+
+
+
+
+Module-3
+I. Definitions
+•	Software Architecture: Translates ideas into reality, transforming requirements into the software's who, when, where, and how.   
+•	Architectural Risk Analysis: A methodology consisting of activities like software characterization, threat analysis, and risk mitigation planning to identify potential threats and their associated risks.   
+•	Threat Analysis: The process of identifying relevant threats for a specific architecture, functionality, and configuration.   
+•	Vulnerability: A software defect that an attacker can exploit.   
+•	Risk: In software security, the potential for a threat to exploit a vulnerability and cause harm.
+II. Key Points
+•	Secure software architecture and design are critical for overall quality and success in software development.   
+•	Flaws in architecture and design can lead to significant security vulnerabilities that coding cannot resolve.   
+•	Architectural risk analysis involves threat modeling, risk analysis, and risk mitigation planning.   
+•	Security principles, guidelines, and attack patterns help bolster software architects' understanding of security.   
+•	Security testing aims to ensure software robustness against malicious attacks.   
+III. Viva Questions
+1.	Q: Why are software architecture and design considered critical in the Software Development Life Cycle (SDLC)?
+A: Software architecture and design translate requirements into the software's implementation, and good decisions at this stage yield resilient designs, while bad decisions lead to flaws that coding cannot resolve. Experts consider it the single most critical phase of the SDLC.   
+2.	Q: What are the key objectives of software architecture and design?
+A: The key objectives include completeness, stability, flexibility, extensibility, and scalability. Security-specific objectives include comprehensive functional security architecture, attack resistance, attack tolerance, and attack resilience.   
+3.	Q: Explain the importance of secure architecture.
+A: Approximately half of the defects leading to security vulnerabilities are attributable to flaws in architecture and design. These flaws have a greater impact, and building security into the architecture and design phase reduces flaws early and minimizes ambiguities.   
+4.	Q: What is Architectural Risk Analysis, and what are its main activities?
+A: Architectural Risk Analysis is a methodology that identifies potential threats and maps them to risks based on likelihood and impact. Its main activities include software characterization, threat analysis, architectural vulnerability assessment, risk likelihood determination, risk impact determination, and risk mitigation planning.   
+5.	Q: Describe the process of software characterization.
+A: Software characterization involves understanding the software's purpose, objectives, and how it works. It includes reviewing business cases, requirements, architecture and design documents, and interviewing stakeholders to depict vital relationships between critical parts of the software.   
+6.	Q: What is threat analysis, and what is its purpose?
+A: Threat analysis identifies relevant threats for a specific architecture, functionality, and configuration. It may assume a given level of access and skill level that the attacker may possess and maps threats to vulnerabilities to understand how the software may be exploited.   
+7.	Q: What are the three activities that make up architectural vulnerability assessment?
+A: The three activities are attack resistance analysis, ambiguity analysis, and dependency analysis.   
+8.	Q: Explain the purpose of ambiguity analysis.
+A: Ambiguity analysis identifies ambiguities between requirements, specifications, and development that may lead to vulnerabilities. It ensures clarity between business requirements and software implementation by examining artifacts for multiple interpretations and resolving ambiguous definitions to prevent security risks.   
+9.	Q: What is risk likelihood determination, and what factors influence it?
+A: Risk likelihood determination is a qualitative estimate of how probable a successful attack is. Factors influencing likelihood include the threat’s motivation and capability, the vulnerability’s impact and attractiveness, and the effectiveness of current controls.   
+10.	Q: How is risk impact determined, and what are some examples of potential impacts?
+A: Risk impact determination involves determining the consequences if a risk materializes. Potential impacts include data loss, financial loss, legal penalties, reputation damage, and market share decline.   
+11.	Q: What are the strategies for risk mitigation planning?
+A: Risk mitigation planning strategies include reducing likelihood, reducing impact, and implementing detection strategies.   
+12.	Q: Why is software security knowledge important for architecture and design?
+A: Integrating security into software architecture and design is challenging due to the need for experienced architects with a strong grasp of security. Codified knowledge resources like security principles, guidelines, and attack patterns can help bolster software architects' understanding of security.   
+13.	Q: What are security principles, and how do they guide secure software development?
+A: Security principles are high-level practices derived from real-world experience that guide software developers in building more secure software. They provide architectural guidance and are aggregated from industry leaders to aid in making software more secure.   
+14.	Q: Name and explain some core security principles.
+A: Core security principles include least privilege (assigning minimum necessary rights), defense in depth (layering security defenses), and reluctance to trust (assuming the environment is insecure).   
+15.	Q: What is the principle of least privilege, and why is it important?
+A: The principle of least privilege states that only the minimum necessary rights should be assigned to a subject requesting access to a resource, and should be in effect for the shortest duration necessary. It is important because granting excessive permissions can allow a user to obtain or change information in unwanted ways, and careful delegation of access rights can limit attackers’ ability to damage a system.   
+16.	Q: What are common software code vulnerabilities?
+A: Common software code vulnerabilities include incorrect input validation, poor exception handling, buffer overflows, SQL injection, and race conditions.   
+17.	Q: Explain the concept of input validation and why it is important.
+A: Input validation is the process of ensuring that input to a system is valid. It is important to prevent attacks that take advantage of little to no input validation, such as cross-site scripting, illegal pointer values, integer overflows, and DNS cache poisoning.   
+18.	Q: How does security testing differ from traditional software testing?
+A: Security testing differs from traditional testing as it requires emulating intelligent attackers who search for vulnerabilities deliberately. Security testing focuses on what an application should not do, testing negative requirements, while traditional testing focuses on what software should do.   
+19.	Q: What is risk-based testing, and how is it conducted?
+**A:** Risk-based testing addresses negative requirements, stating what a software system should not do. [cite: 187, 188, 189, 190, 191, 192, 193] Tests are derived from risk analysis, and security test engineers look for common mistakes and test suspected weaknesses, often exploiting software weaknesses. [cite: 187, 188, 189, 190, 191, 192, 193]
+20.	Q: Describe the different levels of security testing throughout the SDLC.
+**A:** Security testing occurs throughout the SDLC and includes unit testing (individual components), testing libraries and executable files (shared components), integration testing (secure interaction of components), and system testing (overall system security, including stress and penetration testing). [cite: 216, 217, 218]
+IV. Fill-in-the-Blanks
+1.	Software architecture and design translate ____________ into reality.
+Answer: ideas   
+2.	Approximately half of the defects leading to security vulnerabilities are attributable to flaws in ____________ and ____________.
+Answer: architecture and design   
+3.	____________ analysis identifies relevant threats for a specific architecture, functionality, and configuration.
+Answer: Threat   
+4.	____________ is a software defect that an attacker can exploit.
+Answer: A vulnerability   
+5.	____________ testing ensures software behaves as specified, demonstrating that requirements are satisfied.
+Answer: Functional   
+6.	____________ testing addresses negative requirements, stating what a software system should not do.
+Answer: Risk-based   
+7.	The principle of ____________ states that only the minimum necessary rights should be assigned to a subject.
+Answer: least privilege   
+8.	____________ in depth involves layering security defenses to reduce attack chances.
+Answer: Defense   
+9.	____________ validation is crucial to prevent attacks like cross-site scripting and SQL injection.
+Answer: Input   
+10.	____________ testing simulates real-world attacks to identify vulnerabilities.
+Answer: Penetration
+
+
+
